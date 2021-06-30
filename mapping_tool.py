@@ -1,7 +1,7 @@
 import pyautogui as pyg
 import time
 
-print("Welcome to mapping tool for zoom bot!!)
+print("Welcome to mapping tool for zoom bot!!")
 print("This is a one time process for your program until you move your zoom client window around, so don't do that!!")
       
 print("Position you mouse on the join button in the Zoom Client in under 7 seconds!!!!")
