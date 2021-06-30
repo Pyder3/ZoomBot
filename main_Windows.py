@@ -65,13 +65,15 @@ def join_meeting_ID(meetingid, password, meeting_date, meeting_time):
     # open spotlight
     pyg.press('win')  # pressing windows key.
     # open zoom.us
-    pyg.write('zoom.us')
+    pyg.write('zoom')
     time.sleep(3)
     pyg.press('enter')
     time.sleep(5)   # wait for 5 seconds
     # inside zoom client
     pyg.click(x=575, y=312, clicks=1, interval=0, button='left')  # click on join meeting
+    time.sleep(3)
     pyg.write(meetingid)  # type meeting ID
+    time.sleep(1)
     # pyg.click(x=858, y=532, clicks=1, interval=0, button='left')  # click on join button or press enter
     pyg.press("enter")
     time.sleep(4)  # wait for 4 seconds
